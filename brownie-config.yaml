@@ -1,3 +1,4 @@
 dotenv: .env
 wallets:
   from_key: ${PRIVATE_KEY}
+  from_key_ftm: ${PRIVATE_KEY_FTM}

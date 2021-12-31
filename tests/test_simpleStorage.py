@@ -1,5 +1,10 @@
 from brownie import SimpleStorage, accounts
 
+#   Tips:
+#   1. brownie test -k FUNCTION --> only one function is tested
+#   2. brownie test --pdb --> similar to gdb (AWESOME)
+#   3. brownie test -s --> printlines and PASSED
+
 
 def test_deploy():
     # Arrange
